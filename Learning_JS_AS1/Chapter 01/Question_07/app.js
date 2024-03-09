@@ -1,0 +1,1 @@
+alert("Observing the behaviour of browser by changing the script position.")
