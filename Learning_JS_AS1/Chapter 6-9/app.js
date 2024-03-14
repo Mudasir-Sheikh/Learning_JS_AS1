@@ -63,3 +63,17 @@ document.write("<br>",tablenum , " x 9 " , " = " , tablenum*9);
 document.write("<br>",tablenum , " x 10 " , " = " , tablenum*10);
 }
 
+
+
+//Question 06
+document.write("Question 05 <br>");
+var sub1marks = +prompt(("Enter the Marks of Subject 1"));
+var sub2marks = +prompt(("Enter the Marks of Subject 2"));
+var sub3marks = +prompt(("Enter the Marks of Subject 3"));
+var totalmarks = +prompt("Enter the Total Marks")
+var summarks = sub1marks + sub2marks + sub3marks;
+var percent = (summarks/totalmarks) * 100;
+document.write("Total Marks: ",totalmarks,"<br>");
+document.write("Obtained Marks: ",summarks,"<br>");
+document.write("Percentage Obtained: ",percent,"%<br>");
+document.write("<br><br>")
